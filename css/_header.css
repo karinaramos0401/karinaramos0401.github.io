@@ -1,0 +1,29 @@
+
+.title{ 
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--primary-font);
+    font-size: 45px;
+    position: relative;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    letter-spacing: 4px;
+
+}
+
+.title::before{
+    background-color: var(--light-purple);
+    content: "";
+    position:absolute;
+    left: 0;
+    right: 0;
+    top: 32%;
+    height: 40px;
+    z-index: -1;
+
+}
+
+
+

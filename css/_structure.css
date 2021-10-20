@@ -1,0 +1,18 @@
+
+.container{ 
+    display: flex; 
+    border-bottom: 1px solid var(--light-purple);   
+    
+}
+
+
+.about-me{
+    flex-grow: 1;
+    padding: 0 136px 253px;
+
+}
+
+.aside{
+    border-left: 1px solid var(--light-purple);
+    
+}
