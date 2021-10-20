@@ -31,6 +31,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	font-family: var(--primary-font);
+	background-color: var(--body);
 }
 ol, ul {
 	list-style: none;
@@ -50,5 +52,4 @@ table {
 
 * {
     box-sizing: border-box;
-    
   }

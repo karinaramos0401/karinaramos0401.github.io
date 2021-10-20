@@ -1,18 +1,45 @@
 
 .container{ 
     display: flex; 
-    border-bottom: 1px solid var(--light-purple);   
-    
+    border-bottom: 1px solid var(--light-purple); 
+   
 }
 
 
 .about-me{
     flex-grow: 1;
     padding: 0 136px 253px;
+    
 
 }
 
 .aside{
     border-left: 1px solid var(--light-purple);
     
+}
+
+.subtitle, .text {
+    text-align: center;
+    
+}
+
+.subtitle{
+    margin-top: 80px;
+    font-size: 30px;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    letter-spacing: 4px;
+
+}
+
+.subtitle::before{
+    content: "●";
+    color: var(--strong-purple);
+    margin-right: 10px ;
+
+}
+
+.text{
+    margin-top: 25px;
+    font-size: 25px;
 }
