@@ -19,7 +19,6 @@
     display: flex;
     align-items: center;
     flex-direction:column;
-    
 }
 
 .image{
@@ -29,7 +28,6 @@
     border-radius: 50%;
     object-fit: cover;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
-
 }
 
 .subtitle, .text {
@@ -43,14 +41,12 @@
     text-transform: uppercase;
     word-spacing: 5px;
     letter-spacing: 4px;
-
 }
 
 .subtitle::before{
     content: "●";
     color: var(--strong-purple);
     margin-right: 10px ;
-
 }
 
 .text{
@@ -68,11 +64,9 @@
     border-radius: 25px;
     background-color: var(--light-purple);
     transition: box-shadow 0.1s;
-
 }
 
 .button:hover {
     box-shadow: 0 0 15px rgba(0,0,0,0.24);
-
 }
 
