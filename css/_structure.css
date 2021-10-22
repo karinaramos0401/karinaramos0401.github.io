@@ -8,7 +8,7 @@
 
 .about-me{
     flex-grow: 1;
-    padding: 0 136px 253px;
+    padding: 0 136px 200px; /*253*/
     
 
 }
@@ -59,12 +59,12 @@
 }
 
 .button{
-    width: 210px;
-    height: 70px;
+    width: 150px;
+    height: 50px;
     margin-top: 100px;
     border: none;
     font-family: var(--primary-font);
-    font-size: 35px;
+    font-size: 30px;
     border-radius: 25px;
     background-color: var(--light-purple);
     transition: box-shadow 0.1s;
