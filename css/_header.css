@@ -13,6 +13,13 @@
 
 }
 
+@media(max-width:768px) {
+    .title{
+        font-size: 40px;
+    }
+
+}
+
 .title::before{
     background-color: var(--light-purple);
     content: "";
@@ -23,6 +30,16 @@
     height: 40px;
     z-index: -1;
 
+}
+
+@media(max-width:768px) {
+    .title::before {
+        width: 250px;
+        height: 44px;
+        top: 22%;
+           
+
+    }
 }
 
 
