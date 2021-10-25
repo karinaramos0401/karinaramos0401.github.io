@@ -8,7 +8,7 @@
 
 .about-me{
     flex-grow: 1;
-    padding: 0 136px 160px; /*253*/
+    padding: 0 136px 160px; 
     
 
 }
@@ -28,7 +28,7 @@
     margin-top: 15px;
     border-radius: 50%;
     object-fit: cover;
-    box-shadow: 10px 5px 15px rgba(0,0,0,0.24);
+    box-shadow: 10px 5px 15px rgba(0,0,0.24);
     
 }
 
@@ -75,61 +75,44 @@
 }
 
 .link:hover {
-    box-shadow: 0 0 15px rgba(0,0,0,0.24);
+    box-shadow: 0 0 15px rgba(0,0,0.24);
 }
 
 
-.image-logo {
-   
+.logo {
     width: 60px;
     height: 60px;
     border-radius: 82px;
-    box-shadow: 10px 5px 15px rgba(0,0,0,0.24);
+    box-shadow: 10px 5px 15px rgba(0,0,0.24);
+   
     
    
 }
 
-.footer, .logo{
-    border-radius:30px;
-    width: 60px;
-    height: 60px;
+.footer{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    
+    justify-content: center;
+    margin-top: 25px;
+    gap: 250px;
+       
 }
 
 .logo{
+    border-radius:30px;
+    width: 60px;
+    height: 60px;
     background-color: var(--strong-purple);
-    margin-top: 50px;
-
+    
 }
 
-.LinkedIn {
-    margin-left: 180px;
-   
-}
-
-.GitHub, .Gmail {
-    margin-left: 400px ;
-}
-
-/* .rede-social {
-    padding-top: 20px;
-    margin-left: 50px;
-    font-size: 30px; 
-}*/
-
-
-a {
+.footer__link{
     text-decoration: none;
     color: black;
-
-}
-
-.text-logo {
-    
-    margin-left: 80px;
     margin-top: 18px;
-    font-size: 30px;
+    font-size: 30px; 
+    display: flex;
+    align-items: center;
+    gap: 75px;
+
 }
