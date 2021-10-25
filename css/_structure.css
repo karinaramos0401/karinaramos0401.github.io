@@ -20,7 +20,6 @@
     display: flex;
     align-items: center;
     flex-direction:column;
-    
 }
 
 .image{
@@ -44,14 +43,12 @@
     text-transform: uppercase;
     word-spacing: 5px;
     letter-spacing: 4px;
-
 }
 
 .subtitle::before{
     content: "●";
     color: var(--strong-purple);
     margin-right: 10px ;
-
 }
 
 .text{
@@ -79,7 +76,6 @@
 
 .link:hover {
     box-shadow: 0 0 15px rgba(0,0,0,0.24);
-
 }
 
 
