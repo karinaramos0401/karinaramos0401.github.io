@@ -10,7 +10,6 @@
     text-transform: uppercase;
     word-spacing: 5px;
     letter-spacing: 4px;
-
 }
 
 @media(max-width:768px) {
@@ -19,7 +18,6 @@
         font-size: 38px;
         text-align: center;
     }
-
 }
 
 .title::before{
@@ -31,7 +29,6 @@
     top: 32%;
     height: 40px;
     z-index: -1;
-
 }
 
 @media(max-width:768px) {
@@ -39,9 +36,6 @@
         top: 28%;
         height: 44px;
         top: 22%;
-        
-        
-
     }
 }
 
