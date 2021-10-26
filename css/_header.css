@@ -15,7 +15,9 @@
 
 @media(max-width:768px) {
     .title{
-        font-size: 40px;
+        margin-top: 40px;
+        font-size: 38px;
+        text-align: center;
     }
 
 }
@@ -34,10 +36,11 @@
 
 @media(max-width:768px) {
     .title::before {
-        width: 250px;
+        top: 28%;
         height: 44px;
         top: 22%;
-           
+        
+        
 
     }
 }
