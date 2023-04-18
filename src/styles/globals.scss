@@ -1,0 +1,67 @@
+@import "utils/mixins";
+
+@import "modules/author-tag";
+@import "modules/header";
+@import "modules/home";
+
+
+:root {
+  --text-color: #000;
+  --primary-color: #bf9278;
+  --light-background: #fff;
+}
+
+// dark theme code
+// @media (prefers-color-scheme: dark) {
+//   html {
+//     color-scheme: dark;
+//   }
+
+//   :root {
+//     --text-color: #ebebeb;
+//     --primary-color: #bf9278;
+//     --light-background: none;
+//   }
+// }
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  background-color: #faf9f6;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+main {
+  margin-top: 22px;
+  margin-bottom: 46px;
+  
+  @include use-above("lg") {
+    margin-top: 60px;
+  }
+}
+
+.wrapper {
+  margin: 0 auto;
+  position: relative;
+  min-height: 100vh;
+  padding-top: 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@include use-above("lg") {
+  .wrapper {
+    max-width: 1440px;
+    padding-top: 0;
+  }
+}
