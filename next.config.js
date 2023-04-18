@@ -5,7 +5,7 @@ const path = require("path");
 const isGithubActions = process.env.GITHUB_ACTIONS || false
 
 let assetPrefix = ''
-let basePath = '/'
+let basePath = ''
 
 if (isGithubActions) {
   const repo = process.env.GITHUB_REPOSITORY.replace(/.*?\//, '')
@@ -22,6 +22,9 @@ const nextConfig = {
     includePaths: [path.join(__dirname, "styles")],
   },
   output: 'export',
+  images: {
+    unoptimized: true,
+  },
 };
 
 module.exports = nextConfig;
