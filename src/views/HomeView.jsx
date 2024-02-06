@@ -27,7 +27,7 @@ export default function HomeView() {
       <div className="home__links">
         <a rel="external" target="_blank" href="https://www.linkedin.com/in/karinaramos04/" className="home__link">linkedin</a>
         <a href="mailto:ux.karinar@gmail.com" className="home__link">gmail</a>
-        <a rel="external" target="_blank" href="https://www.behance.net/karinaramos18" className="home__link">behance</a>
+        <a rel="external" target="_blank" href="https://www.behance.net/karinaramos33" className="home__link">behance</a>
       </div>
     </div>
   );
